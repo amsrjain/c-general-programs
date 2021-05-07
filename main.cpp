@@ -11,6 +11,8 @@ void string_test_1(void);
 void string_test_2(void);
 void string_test_3(void);
 
+void linklist_test_interactive(void);
+
 // Main function that calls sub functions for various trials
 int main(void) {
 	printf("Hello World! \n");
@@ -29,6 +31,9 @@ int main(void) {
 
 	/* test if two strings are maximum one edit away */
 	string_test_3();
+
+	/* test link list using console inputs */
+	linklist_test_interactive();
 
 	return 1;
 }
